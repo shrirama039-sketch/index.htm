@@ -1,0 +1,351 @@
+
+<div id="csr-photo">
+  <header class="csr-header">
+    <a href="#csr-home" class="csr-logo">CSR<span> PHOTOGRAPHY</span></a>
+    <button class="csr-menu" aria-label="Toggle menu">☰</button>
+    <nav class="csr-nav">
+      <a href="#csr-home">Home</a>
+      <a href="#csr-about">About</a>
+      <a href="#csr-services">Services</a>
+      <a href="#csr-gallery">Gallery</a>
+      <a href="#csr-contact">Contact</a>
+    </nav>
+    <a class="csr-btn csr-nav-btn" href="#csr-contact">Book a Shoot</a>
+  </header>
+
+  <section class="csr-hero" id="csr-home">
+    <div class="csr-hero-content">
+      <p class="csr-eyebrow">CSR PHOTOGRAPHY WGL · WARANGAL</p>
+      <h1>Every Picture<br> Tells a <em>Story.</em></h1>
+      <p class="csr-intro">Capturing your beautiful moments with creativity, emotion and timeless photography.</p>
+      <a class="csr-btn" href="#csr-gallery">Explore Our Work ↗</a>
+      <a class="csr-text-link" href="#csr-contact">Book your photography session</a>
+    </div>
+    <div class="csr-hero-photo" role="img" aria-label="Professional wedding photography"></div>
+    <div class="csr-hero-label">YOUR MOMENTS. OUR PASSION.</div>
+  </section>
+
+  <section class="csr-section csr-about" id="csr-about">
+    <p class="csr-eyebrow">WELCOME TO CSR PHOTOGRAPHY</p>
+    <h2>Memories fade.<br><em>Photographs last forever.</em></h2>
+    <p>We capture meaningful moments, real emotions and special celebrations. From weddings and engagements to portraits and events, our goal is to turn your memories into photographs you will treasure.</p>
+  </section>
+
+  <section class="csr-section" id="csr-services">
+    <p class="csr-eyebrow">WHAT WE DO</p>
+    <h2>Our <em>Services</em></h2>
+    <div class="csr-grid">
+      <article class="csr-card">
+        <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=85" alt="Wedding photography">
+        <h3>Wedding Photography</h3>
+        <p>Beautifully capturing the emotions and details of your special day.</p>
+      </article>
+      <article class="csr-card">
+        <img src="https://images.unsplash.com/photo-1537633552985-df8429e8048b?auto=format&fit=crop&w=800&q=85" alt="Couple portrait photography">
+        <h3>Pre-Wedding Shoots</h3>
+        <p>Creative couple portraits that tell your unique love story.</p>
+      </article>
+      <article class="csr-card">
+        <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=800&q=85" alt="Celebration photography">
+        <h3>Events & Celebrations</h3>
+        <p>Preserving the joy of birthdays, engagements and family occasions.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="csr-section csr-gallery" id="csr-gallery">
+    <p class="csr-eyebrow">A FEW MOMENTS WE LOVE</p>
+    <h2>Our <em>Gallery</em></h2>
+    <div class="csr-filters">
+      <button class="active" data-filter="all">All</button>
+      <button data-filter="wedding">Wedding</button>
+      <button data-filter="portrait">Portraits</button>
+      <button data-filter="events">Events</button>
+    </div>
+    <div class="csr-gallery-grid">
+      <img data-category="wedding" src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=700&q=85" alt="Wedding moment" loading="lazy">
+      <img data-category="portrait" src="https://images.unsplash.com/photo-1537633552985-df8429e8048b?auto=format&fit=crop&w=700&q=85" alt="Couple portrait" loading="lazy">
+      <img data-category="events" src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=700&q=85" alt="Celebration" loading="lazy">
+      <img data-category="wedding" src="https://images.unsplash.com/photo-1606216794074-735e91aa2c92?auto=format&fit=crop&w=700&q=85" alt="Wedding photography" loading="lazy">
+      <img data-category="portrait" src="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=700&q=85" alt="Couple outdoors" loading="lazy">
+      <img data-category="events" src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=700&q=85" alt="Special event" loading="lazy">
+    </div>
+    <p class="csr-note">Sample images shown. Replace these with your own photography portfolio.</p>
+  </section>
+
+  <section class="csr-section csr-reviews">
+    <p class="csr-eyebrow">KIND WORDS</p>
+    <h2>Client <em>Love</em></h2>
+    <div class="csr-review-box">
+      <div class="csr-stars">★★★★★</div>
+      <p id="csr-review-text">“Beautiful memories deserve beautiful photographs.”</p>
+      <strong id="csr-review-name">Your next happy client</strong>
+      <div class="csr-review-controls">
+        <button id="csr-prev" aria-label="Previous review">←</button>
+        <button id="csr-next" aria-label="Next review">→</button>
+      </div>
+    </div>
+    <p class="csr-note">Add genuine client reviews here before publishing.</p>
+  </section>
+
+  <section class="csr-section csr-faq">
+    <p class="csr-eyebrow">NEED TO KNOW MORE?</p>
+    <h2>Frequently Asked <em>Questions</em></h2>
+    <details>
+      <summary>How can I book a photography session?</summary>
+      <p>Use the booking form below to send your preferred date and photography requirements through WhatsApp.</p>
+    </details>
+    <details>
+      <summary>What photography services do you offer?</summary>
+      <p>Wedding, pre-wedding, portrait and event photography can be listed here. Update this section to match your actual services.</p>
+    </details>
+    <details>
+      <summary>How can I get a price quotation?</summary>
+      <p>Send us your event type, date and location on WhatsApp to discuss availability and pricing.</p>
+    </details>
+  </section>
+
+  <section class="csr-contact" id="csr-contact">
+    <p class="csr-eyebrow">LET'S CREATE SOMETHING BEAUTIFUL</p>
+    <h2>Let's Capture Your <em>Story.</em></h2>
+    <p>Tell us about your special day. We'll help you plan your photography session.</p>
+    <form id="csr-booking">
+      <input id="csr-name" type="text" placeholder="Your full name" required>
+      <input id="csr-phone" type="tel" placeholder="Your phone number" required>
+      <select id="csr-type" required>
+        <option value="">Select photography service</option>
+        <option>Wedding Photography</option>
+        <option>Pre-Wedding Shoot</option>
+        <option>Portrait Photography</option>
+        <option>Birthday / Event</option>
+        <option>Other</option>
+      </select>
+      <input id="csr-date" type="date">
+      <textarea id="csr-message" placeholder="Tell us about your event and location" rows="4"></textarea>
+      <button class="csr-btn" type="submit">Send Booking Enquiry ↗</button>
+    </form>
+    <p class="csr-contact-note">Your enquiry will open in WhatsApp for you to send.</p>
+  </section>
+
+  <footer class="csr-footer">
+    <a href="#csr-home" class="csr-logo">CSR<span> PHOTOGRAPHY</span></a>
+    <p>Capturing moments. Creating memories.</p>
+    <p>© <span id="csr-year"></span> CSR Photography WGL. All rights reserved.</p>
+  </footer>
+
+  <a class="csr-whatsapp" id="csr-whatsapp" href="#" target="_blank" rel="noopener" aria-label="Contact on WhatsApp">WhatsApp ↗</a>
+</div>
+
+<style>
+#csr-photo {
+  --gold:#d7b574; --bg:#101010; --panel:#191919; --muted:#b8b5af;
+  background:var(--bg); color:#f8f5ef; font-family:Arial,Helvetica,sans-serif;
+  line-height:1.7; overflow:hidden; scroll-behavior:smooth;
+}
+#csr-photo * {box-sizing:border-box}
+#csr-photo a {color:inherit;text-decoration:none}
+#csr-photo img {max-width:100%;display:block}
+#csr-photo .csr-header {
+  display:flex;align-items:center;justify-content:space-between;gap:20px;
+  padding:22px 6%;border-bottom:1px solid #ffffff15;flex-wrap:wrap;
+}
+#csr-photo .csr-logo {font-size:20px;font-weight:800;letter-spacing:2px}
+#csr-photo .csr-logo span {color:var(--gold);font-size:12px;display:block;letter-spacing:3px}
+#csr-photo .csr-nav {display:flex;gap:24px;align-items:center}
+#csr-photo .csr-nav a {font-size:13px;color:#ddd}
+#csr-photo .csr-nav a:hover,#csr-photo .csr-text-link:hover {color:var(--gold)}
+#csr-photo .csr-menu {display:none;background:none;color:white;border:1px solid #555;padding:8px 12px;font-size:20px}
+#csr-photo .csr-btn {
+  display:inline-block;background:var(--gold);color:#151515!important;
+  border:0;padding:14px 22px;font-weight:bold;font-size:13px;cursor:pointer;
+  transition:.2s;letter-spacing:.3px;
+}
+#csr-photo .csr-btn:hover {background:#f0d39b;transform:translateY(-2px)}
+#csr-photo .csr-hero {min-height:570px;display:grid;grid-template-columns:1fr 1fr;position:relative}
+#csr-photo .csr-hero-content {padding:90px 8% 85px 12%;align-self:center;position:relative;z-index:1}
+#csr-photo .csr-eyebrow {font-size:11px;letter-spacing:3px;color:var(--gold);font-weight:bold;margin:0 0 18px}
+#csr-photo h1,#csr-photo h2 {font-family:Georgia,'Times New Roman',serif;font-weight:400;line-height:1.14;margin:0 0 22px}
+#csr-photo h1 {font-size:clamp(42px,5.5vw,76px)}
+#csr-photo h2 {font-size:clamp(32px,4vw,49px)}
+#csr-photo h1 em,#csr-photo h2 em {color:var(--gold);font-weight:400}
+#csr-photo .csr-intro {color:var(--muted);max-width:410px;margin-bottom:28px}
+#csr-photo .csr-text-link {display:block;font-size:12px;margin-top:20px;color:#ddd}
+#csr-photo .csr-hero-photo {
+  min-height:450px;background:
+  linear-gradient(90deg,#10101030,transparent),
+  url('https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1400&q=90') center/cover;
+}
+#csr-photo .csr-hero-label {position:absolute;bottom:20px;right:6%;font-size:10px;letter-spacing:3px;color:#fff}
+#csr-photo .csr-section {padding:85px 8%;text-align:center}
+#csr-photo .csr-about {background:#171717}
+#csr-photo .csr-about>p:not(.csr-eyebrow) {max-width:680px;margin:0 auto;color:var(--muted)}
+#csr-photo .csr-grid {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;text-align:left;margin-top:40px}
+#csr-photo .csr-card {background:var(--panel);padding-bottom:22px}
+#csr-photo .csr-card img {width:100%;height:245px;object-fit:cover}
+#csr-photo .csr-card h3 {font-family:Georgia,serif;font-size:22px;font-weight:400;padding:0 20px;margin:20px 0 8px}
+#csr-photo .csr-card p {padding:0 20px;color:var(--muted);font-size:14px;margin:0}
+#csr-photo .csr-gallery {background:#171717}
+#csr-photo .csr-filters {display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin:28px 0}
+#csr-photo .csr-filters button {padding:9px 17px;border:1px solid #555;background:transparent;color:#eee;cursor:pointer}
+#csr-photo .csr-filters button.active,#csr-photo .csr-filters button:hover {background:var(--gold);color:#111;border-color:var(--gold)}
+#csr-photo .csr-gallery-grid {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+#csr-photo .csr-gallery-grid img {width:100%;height:280px;object-fit:cover;cursor:zoom-in;transition:transform .25s}
+#csr-photo .csr-gallery-grid img:hover {transform:scale(1.015)}
+#csr-photo .csr-gallery-grid img.csr-hidden {display:none}
+#csr-photo .csr-note {font-size:11px;color:#96928a;margin-top:24px}
+#csr-photo .csr-review-box {max-width:650px;margin:35px auto 0;padding:36px;background:var(--panel);border:1px solid #ffffff15}
+#csr-photo .csr-stars {color:var(--gold);letter-spacing:5px}
+#csr-photo #csr-review-text {font-family:Georgia,serif;font-size:22px}
+#csr-photo .csr-review-controls {display:flex;justify-content:center;gap:12px;margin-top:20px}
+#csr-photo .csr-review-controls button {border:1px solid #666;background:transparent;color:white;padding:8px 15px;cursor:pointer}
+#csr-photo .csr-faq {max-width:900px;margin:auto;text-align:left}
+#csr-photo .csr-faq>.csr-eyebrow,#csr-photo .csr-faq>h2 {text-align:center}
+#csr-photo .csr-faq details {border-bottom:1px solid #444;padding:20px 0}
+#csr-photo .csr-faq summary {cursor:pointer;font-size:16px}
+#csr-photo .csr-faq details p {color:var(--muted);font-size:14px;margin-bottom:0}
+#csr-photo .csr-contact {padding:80px 7%;text-align:center;background:#1b1a17}
+#csr-photo .csr-contact>p:not(.csr-eyebrow) {color:var(--muted)}
+#csr-photo #csr-booking {max-width:540px;margin:30px auto 0;display:grid;gap:13px}
+#csr-photo #csr-booking input,#csr-photo #csr-booking select,#csr-photo #csr-booking textarea {
+  width:100%;padding:14px;background:#101010;border:1px solid #45413a;color:#fff;
+  border-radius:0;font:inherit;font-size:14px;
+}
+#csr-photo #csr-booking input:focus,#csr-photo #csr-booking select:focus,#csr-photo #csr-booking textarea:focus {outline:1px solid var(--gold)}
+#csr-photo #csr-booking .csr-btn {width:100%}
+#csr-photo .csr-contact-note {font-size:12px}
+#csr-photo .csr-footer {text-align:center;padding:35px 20px;background:#0b0b0b;color:#999;font-size:12px}
+#csr-photo .csr-footer .csr-logo {display:inline-block;color:#fff}
+#csr-photo .csr-whatsapp {position:fixed;z-index:9999;bottom:20px;right:20px;background:#218c55;color:white!important;padding:13px 17px;border-radius:30px;font-size:13px;font-weight:bold;box-shadow:0 5px 20px #0005}
+#csr-photo .csr-lightbox {position:fixed;z-index:99999;inset:0;background:#000e;display:flex;align-items:center;justify-content:center;padding:30px}
+#csr-photo .csr-lightbox img {max-height:90vh;max-width:90vw;object-fit:contain}
+#csr-photo .csr-lightbox button {position:absolute;top:18px;right:25px;background:none;border:0;color:white;font-size:36px;cursor:pointer}
+@media(max-width:800px) {
+  #csr-photo .csr-header {padding:18px 5%}
+  #csr-photo .csr-menu {display:block;margin-left:auto}
+  #csr-photo .csr-nav {display:none;order:4;width:100%;flex-direction:column;align-items:flex-start;gap:14px;padding:12px 0}
+  #csr-photo .csr-nav.csr-open {display:flex}
+  #csr-photo .csr-nav-btn {display:none}
+  #csr-photo .csr-hero {grid-template-columns:1fr}
+  #csr-photo .csr-hero-content {padding:70px 8%}
+  #csr-photo .csr-hero-photo {min-height:350px}
+  #csr-photo .csr-hero-label {bottom:15px}
+  #csr-photo .csr-section {padding:65px 6%}
+  #csr-photo .csr-grid {grid-template-columns:1fr}
+  #csr-photo .csr-card img {height:300px}
+  #csr-photo .csr-gallery-grid {grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+  #csr-photo .csr-gallery-grid img {height:210px}
+}
+@media(max-width:420px) {
+  #csr-photo .csr-gallery-grid img {height:160px}
+  #csr-photo .csr-review-box {padding:24px 15px}
+}
+</style>
+
+<script>
+(function () {
+  const root = document.getElementById('csr-photo');
+  if (!root || root.dataset.initialized) return;
+  root.dataset.initialized = 'true';
+
+  // Replace with your WhatsApp number: country code + number, digits only.
+  const WHATSAPP_NUMBER = '919000000000';
+  const whatsappURL = 'https://wa.me/' + WHATSAPP_NUMBER;
+
+  const waLink = root.querySelector('#csr-whatsapp');
+  waLink.href = whatsappURL;
+  root.querySelector('#csr-year').textContent = new Date().getFullYear();
+
+  const menu = root.querySelector('.csr-menu');
+  const nav = root.querySelector('.csr-nav');
+  menu.addEventListener('click', function () {
+    nav.classList.toggle('csr-open');
+  });
+  nav.querySelectorAll('a').forEach(function (link) {
+    link.addEventListener('click', function () {
+      nav.classList.remove('csr-open');
+    });
+  });
+
+  root.querySelectorAll('.csr-filters button').forEach(function (button) {
+    button.addEventListener('click', function () {
+      root.querySelectorAll('.csr-filters button').forEach(function (b) {
+        b.classList.remove('active');
+      });
+      button.classList.add('active');
+      const filter = button.dataset.filter;
+      root.querySelectorAll('.csr-gallery-grid img').forEach(function (img) {
+        img.classList.toggle('csr-hidden',
+          filter !== 'all' && img.dataset.category !== filter);
+      });
+    });
+  });
+
+  // Simple image lightbox
+  root.querySelectorAll('.csr-gallery-grid img').forEach(function (img) {
+    img.addEventListener('click', function () {
+      const overlay = document.createElement('div');
+      overlay.className = 'csr-lightbox';
+      const largeImage = document.createElement('img');
+      largeImage.src = img.src;
+      largeImage.alt = img.alt;
+      const close = document.createElement('button');
+      close.type = 'button';
+      close.textContent = '×';
+      close.setAttribute('aria-label', 'Close image');
+      overlay.append(largeImage, close);
+      root.appendChild(overlay);
+      function closeOverlay() { overlay.remove(); }
+      close.addEventListener('click', closeOverlay);
+      overlay.addEventListener('click', function (e) {
+        if (e.target === overlay) closeOverlay();
+      });
+      document.addEventListener('keydown', function onKey(e) {
+        if (e.key === 'Escape') {
+          closeOverlay();
+          document.removeEventListener('keydown', onKey);
+        }
+      });
+    });
+  });
+
+  // Replace this sample text with real client testimonials.
+  const reviews = [
+    { text: 'Beautiful memories deserve beautiful photographs.', name: 'CSR Photography' },
+    { text: 'Every special moment deserves to be remembered.', name: 'Our Photography Promise' },
+    { text: 'Your story, captured with care and creativity.', name: 'CSR Photography' }
+  ];
+  let reviewIndex = 0;
+  function showReview() {
+    root.querySelector('#csr-review-text').textContent = '“' + reviews[reviewIndex].text + '”';
+    root.querySelector('#csr-review-name').textContent = reviews[reviewIndex].name;
+  }
+  root.querySelector('#csr-prev').addEventListener('click', function () {
+    reviewIndex = (reviewIndex + reviews.length - 1) % reviews.length;
+    showReview();
+  });
+  root.querySelector('#csr-next').addEventListener('click', function () {
+    reviewIndex = (reviewIndex + 1) % reviews.length;
+    showReview();
+  });
+
+  root.querySelector('#csr-booking').addEventListener('submit', function (e) {
+    e.preventDefault();
+    const name = root.querySelector('#csr-name').value.trim();
+    const phone = root.querySelector('#csr-phone').value.trim();
+    const service = root.querySelector('#csr-type').value;
+    const date = root.querySelector('#csr-date').value || 'Not specified';
+    const message = root.querySelector('#csr-message').value.trim() || 'No additional details';
+    const text = [
+      'Hello CSR Photography WGL!',
+      'I would like to enquire about a photography booking.',
+      'Name: ' + name,
+      'Phone: ' + phone,
+      'Service: ' + service,
+      'Event date: ' + date,
+      'Details: ' + message
+    ].join('\n');
+    window.open(whatsappURL + '?text=' + encodeURIComponent(73866992244), '_blank', 'noopener');
+  });
+})();
+</script>
+</div>
